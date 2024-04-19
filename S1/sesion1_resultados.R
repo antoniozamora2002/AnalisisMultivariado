@@ -6,6 +6,7 @@ library(readxl)
 library(ggplot2)
 library(stringr)
 library(data.table)
+
 resultados2014 = read_delim("E:/UPeU/2024 - 1/Análisis multivariado/AnalisisMultivariado/S1/datos/resultados2014.csv", 
                             ",", escape_double = FALSE, trim_ws = TRUE) #insertar datos separados por ,
   
